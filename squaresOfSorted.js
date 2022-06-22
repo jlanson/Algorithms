@@ -1,3 +1,12 @@
+// A two pointer algorithm problem 
+// Basically you take advantage of the fact that an order array squared will be order such that
+// Highest -> lowest -> highest
+// In this case we can use 2 opposite direction pointers to place stuff in the resultant array
+
+
+// There is also a js unique solution here where you can use .sort in order to sort the squared array
+// by inputting the function a-b, it will order the array in ascending order 
+
 let sortedSquares = function(nums){
     let arr = [];
 
